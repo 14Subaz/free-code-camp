@@ -122,7 +122,7 @@ int main()
 
     return 0;
 }
-*/
+
 
 //ASCII American standard code for Information Interchange
 
@@ -139,7 +139,7 @@ int main()
       printf("\n %d is %c", i, i);
     }
     return 0;
-}
+} 
 // ASCII CONVERSION
 #include<stdio.h>
 int main()
@@ -152,4 +152,29 @@ int main()
     printf("%c", g-32);
     return 0;
 
+}*/
+//Array..
+
+//Single dimensional Array
+//Two dimensional Array
+#include<stdio.h>
+
+int main()
+{
+   int i, a[100],n;
+   printf("\n Enter the Limit:");
+   scanf("%d", &n);
+
+   for(i=0; i<n; i++)
+   {
+       printf("\n Enter the value:");
+       scanf("%d", &a[i]);
+       
+          }
+   for(i=0; i<n; i++)
+   {
+       printf("\n%d", a[i]);
+
+   }
+	return 0;
 }

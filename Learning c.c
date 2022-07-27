@@ -140,3 +140,16 @@ int main()
     }
     return 0;
 }
+// ASCII CONVERSION
+#include<stdio.h>
+int main()
+{
+
+    int i, n;
+
+    char g='a';
+
+    printf("%c", g-32);
+    return 0;
+
+}

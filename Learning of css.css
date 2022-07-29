@@ -1,0 +1,154 @@
+font{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-variant: normal, small-caps;
+    font-weight: bold, bolder, lighter;
+    font-size: small, medium, large, 10px;
+    color: red;
+    font: bold 12pt arial; /*This is the collection of data in single line*/
+}
+
+backgound{
+    background-color: yellow;
+    background-image: url(sss.png);
+    background-repeat: repeat, repeat-x, repeat-y, no-repeat;
+    background-size: 300px 100px; /*width x height*/
+    background-position: top center, bottom center;
+
+}
+
+textproperty{
+    letter-spacing: 10px;
+    text-decoration: underline, overline, line-through;
+    vertical-align: super, sub;
+    text-transform: lowercase;
+    text-indent: 50px;
+    line-height: 30px;
+}
+list properties{
+    ul>li*5
+    ol>li*10
+
+    ul li{
+        list-style-type: square;
+        list-style-image: url(sss.png);
+        
+    }
+
+    ol li{
+
+        list-style-type: disc;
+        list-style-image: url(0);
+
+    }
+}
+
+h1{
+    font: lighter 50px;
+    color: blue;
+    background-color: black;
+    height: 75px;
+    width: auto;
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px;
+}
+
+.firstp{
+    background-color: red;
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 150px;
+    padding: 50px 20px 50px 20px;
+    text-align: justify;
+
+
+}
+
+.lorem{
+    background-color: rgb(130, 234, 238);
+    width: 500px;
+    height: 500px;
+    border: 10px;
+    border-color: cyan;
+    border-style: solid;
+    border-radius: 20px;
+    border: /*border size, border style, border color*/ 20px double blue;
+    margin-left: 150px;
+}
+
+ol li{
+    display: inline-block;
+    list-style-type: circle;
+}
+
+
+body{
+    color: orange;
+}
+
+div{
+    color: red;
+}
+
+p{  
+    color: blue !important;
+    color: brown ;
+   
+    
+}
+
+
+
+/*
+Preference Styles:
+******************
+
+First priority : ID tag
+Second priority: class tag
+Third priority : elements tag
+
+More selector options:
+**********************
+~ for mutiple lines
+> mention as own child
+^ to consider style selecting from starting of tag name
+$ to consider style selcting from ending of tag name
+Eg: a[href~^$="id (or) class"]
+
+Pseudo class
+************
+hover: mouse go through the link 
+active:  after clicked
+visited: already visited
+
+Access Child In CSS
+*******************
+ul li:nth-last-child(1 (or) odd, even ), first-child, last-child.
+
+
+Gradient color: (vender prefix need)
+***************
+vertical ==  linear-gradient()
+circle from the center ==  radial-gradient(top(or)01-360deg, red, blue, violet)
+ vender prefix:
+-webkit
+ -moz
+
+Border Radius in CSS:
+********************
+border-radius: top right bottom left
+
+Box-shadow: 
+***********
+
+box-shadow: horizontal offset, vertical offset   blur radius   spread value;
+5
+
+*/
+
+
+section[id]{
+    background-color: gray; 
+}

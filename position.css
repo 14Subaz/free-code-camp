@@ -1,0 +1,41 @@
+.main{
+    border: 10px solid gray;
+    width: 500px;
+    min-height: 500px;
+    font-weight: bold;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.box1{
+    background-color: teal;
+    position: relative;
+    left: 25PX;
+}
+.box2{
+    background-color: tomato;
+}
+.box3{
+    background-color: goldenrod;
+}
+/*
+
+CSS Position:
+**************
+
+1. Static
+2. Relative
+LTRB
+3. Absolute
+LTRB, RELATIVE
+4. Fixed
+Move the element where-ever
+5. Sticky
+Scroll nav bar lock
+
+*/
+

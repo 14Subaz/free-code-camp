@@ -1,0 +1,18 @@
+html{
+    background-color: aliceblue;
+    width: 500px;
+    height: 500px;
+    
+}
+.top-color{
+    background-color: #1A4AE8;
+    height: 50px;
+    width: 500px;
+    flex-direction: top;
+}
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #211BF2;
+    padding-left: 30px;
+    
+}
